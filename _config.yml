@@ -33,8 +33,9 @@ social:
 address:
   - line: Calle 4 no. 34 - 47
   - line: Cali, Colombia
-  - line: Tel. Cali: 556 46 40
-  - line: Tel. Bogota: 
+  - line: Tel. Cali: 556 4640
+  - line: Tel. Bogota: 321 200 4606
+  - line: Tel. Bogota: 860 6300
   
 # Credits content
 credits: 'Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
