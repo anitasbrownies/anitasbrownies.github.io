@@ -18,7 +18,6 @@ footer:
   location: Dirección
   telefnonos: Teléfonos
   social: Around the Web
-  credits: Credits
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
@@ -45,8 +44,6 @@ telefnonos:
   - line: Bogota 860 6300
   - line: Bogota Cel. 321 200 4606
 
-# Credits content
-credits: 'Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
 # Build settings
 markdown: kramdown
