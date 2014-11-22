@@ -1,7 +1,7 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: Anita's Brownies.
+title: ANITA'S BROWNIES
 description: "En ANITA´S BROWNIES hacemos los brownies más ricos de Colombia. Hechos con los mejores ingredientes, nuestros brownies han sido un delicioso placer por más de 25 años. Brownies de Maní, Chocolate, Integrales, con Arequipe y con Mantequilla de Maní, además de Mini-Brownies y Brownies decorados para ocasiones especiales, siempre deliciosos."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "https://juanfrans.github.io/anitas-brownies/" #important: start with /
@@ -41,8 +41,7 @@ social:
 address:
   - lines: 
     - Calle 4 No. 34 - 47
-    - Cali
-    - Colombia
+    - Cali, Colombia
 email: anitasbrownies@anitasbrownies.com
 tel:
   - lines:
