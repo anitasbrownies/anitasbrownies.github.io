@@ -1,7 +1,7 @@
 # Site settings
-title: ANITA'S BROWNIES
+title: Anita's Brownies
 email: anitasbrownies@anitasbrownies.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "En ANITA´S BROWNIES hacemos los brownies más ricos de Colombia. Hechos con los mejores ingredientes, nuestros brownies han sido un delicioso placer por más de 25 años. Brownies de Maní, Chocolate, Integrales, con Arequipe y con Mantequilla de Maní, además de Mini-Brownies y Brownies decorados para ocasiones especiales, siempre deliciosos."
 
 # Setup
 baseurl: https://juanfrans.github.io/anitas-brownies/
@@ -14,8 +14,9 @@ color:
   
 # Footer settings
 footer:
-  copyright: Dr. Henry Jekyll
-  location: Location
+  copyright: Anita's Brownies
+  location: Dirección
+  telefnonos: Teléfonos
   social: Around the Web
   credits: Credits
 
@@ -36,10 +37,14 @@ social:
 address:
   - line: Calle 4 no. 34 - 47
   - line: Cali - Colombia
-  - line: Tel. Cali 556 4640
-  - line: Tel. Bogota 321 200 4606
-  - line: Tel. Bogota 860 6300
-  
+
+
+# Telefonos
+telefnonos:
+  - line: Cali 556 4640
+  - line: Bogota 860 6300
+  - line: Bogota Cel. 321 200 4606
+
 # Credits content
 credits: 'Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.'
 
