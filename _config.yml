@@ -1,8 +1,8 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: SOLID.
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+title: Anita's Brownies.
+description: "En ANITA´S BROWNIES hacemos los brownies más ricos de Colombia. Hechos con los mejores ingredientes, nuestros brownies han sido un delicioso placer por más de 25 años. Brownies de Maní, Chocolate, Integrales, con Arequipe y con Mantequilla de Maní, además de Mini-Brownies y Brownies decorados para ocasiones especiales, siempre deliciosos."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "https://juanfrans.github.io/anitas-brownies/" #important: start with /
 url: "http://yourdomain.com"
@@ -29,7 +29,7 @@ social:
   - title: dribbble
     url:
   - title: facebook
-    url:
+    url: https://es-es.facebook.com/pages/Anitas-Brownies/242121495819009
   - title: twitter
     url: 
   - title: instagram
@@ -40,11 +40,15 @@ social:
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines: 
-    - Some Ave, 987,
-    - 23890, New York,
-    - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
+    - Calle 4 No. 34 - 47
+    - Cali
+    - Colombia
+email: anitasbrownies@anitasbrownies.com
+tel:
+  - lines:
+    - Cali 556-4640
+    - Bogotá 806-6300
+    - Cel. Bogotá 321-200-4606
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
