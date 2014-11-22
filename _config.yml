@@ -21,29 +21,19 @@ footer:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
   - title: facebook
-    url:
-  - title: stack-overflow
-    url: http://stackoverflow.com/questions/tagged/jekyll
-  - title: bitbucket 
-    url: http://bitbucket.org/jekyll
-  - title: github
-    url: http://github.com/jekyll
+    url: https://es-es.facebook.com/pages/Anitas-Brownies/242121495819009
 
 # Postal address (add as many lines as necessary)
 address:
   - line: Calle 4 no. 34 - 47
   - line: Cali - Colombia
 
-
 # Telefonos
 telefnonos:
   - line: Cali 556 4640
   - line: Bogota 860 6300
   - line: Bogota Cel. 321 200 4606
-
 
 # Build settings
 markdown: kramdown
