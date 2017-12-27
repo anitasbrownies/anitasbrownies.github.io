@@ -45,6 +45,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   min-height: 10em;
+  /* background-color: #e4e8ec; */
 }
 
 @media (min-width: 40em) {
@@ -79,4 +80,10 @@ header {
   text-align: center;
   font-weight: 300;
   color: white;
+}
+
+/* Marketing */
+
+.marketing h2 {
+  margin-top: 0.5em;
 }
