@@ -32,12 +32,51 @@ header {
   text-decoration: underline;
 }
 
+.navbar-light .navbar-toggler {
+  border: 0px;
+}
+
 /* Jumbotron */
 
 .jumbotron {
   background-image: url("../img/test.png");
   /* background-size: cover; */
-  background-size: 500px;
+  background-size: 350px;
   background-repeat: no-repeat;
-  background-position: right;
+  background-position: center;
+  min-height: 10em;
+}
+
+@media (min-width: 40em) {
+  .jumbotron {
+    background-image: url("../img/test.png");
+    /* background-size: cover; */
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 25em;
+  }
+}
+
+@media (min-width: 62em) {
+  .jumbotron {
+    background-image: url("../img/test.png");
+    /* background-size: cover; */
+    background-size: 600px;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 30em;
+  }
+}
+
+.display-3 {
+  text-align: center;
+  font-weight: 400;
+  color: white;
+}
+
+.lead {
+  text-align: center;
+  font-weight: 300;
+  color: white;
 }
