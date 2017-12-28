@@ -36,6 +36,10 @@ header {
   border: 0px;
 }
 
+.dropdown-menu {
+  border: none;
+}
+
 /* Jumbotron */
 
 .jumbotron {
@@ -76,7 +80,7 @@ header {
   color: white;
 }
 
-.lead {
+.jumbotron .lead {
   text-align: center;
   font-weight: 300;
   color: white;
@@ -86,4 +90,22 @@ header {
 
 .marketing h2 {
   margin-top: 0.5em;
+}
+
+/* Footer */
+
+.footer-link a {
+  color: #5a5a5a;
+  text-decoration: none;
+}
+
+.footer-link a:hover {
+  text-decoration: underline;
+  color: #5a5a5a
+}
+
+/* Form */
+
+form {
+  margin: 20px 0px;
 }
