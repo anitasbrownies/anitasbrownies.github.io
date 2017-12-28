@@ -92,6 +92,10 @@ header {
   margin-top: 0.5em;
 }
 
+.hidden-divider {
+  border: none;
+}
+
 /* Footer */
 
 .footer-link a {

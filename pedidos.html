@@ -32,19 +32,19 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">PRODUCTOS</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">BROWNIES</a>
-                  <a class="dropdown-item" href="#">INSTITUCIONALES</a>
-                  <a class="dropdown-item" href="#">OTROS</a>
+                  <a class="dropdown-item" href="brownies.html">BROWNIES</a>
+                  <a class="dropdown-item" href="institucionales.html">INSTITUCIONALES</a>
+                  <a class="dropdown-item" href="otros.html">OTROS</a>
                 </div>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">NOSOTROS</a>
+                <a class="nav-link" href="nosotros.html">NOSOTROS</a>
               </li>
               <li class="nav-item active">
                 <a class="nav-link" href="pedidos.html">PEDIDOS <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">CONTACTO</a>
+                <a class="nav-link" href="contacto.html">CONTACTO</a>
               </li>
             </ul>
           </div>
@@ -53,19 +53,19 @@
     </header>
 
     <main role="main">
-      <form class="container" id="formPedidos" action="#" method="post">
+      <form class="container" id="pedidoForm" action="https://formspree.io/juanfrans@gmail.com" method="post">
         <p class="lead">Por favor llene el siguiente formato. Pronto lo contactaremos para confirmar el pedido. ¡Gracias!</p>
         <div class="form-row">
           <div class="col">
             <div class="form-group">
               <label for="InputNombre">Nombre</label>
-              <input type="text" class="form-control" placeholder="Nombre">
+              <input type="text" class="form-control" placeholder="Nombre" name="Nombre">
             </div>
           </div>
           <div class="col">
             <div class="form-group">
               <label for="InputApellido">Apellido</label>
-              <input type="text" class="form-control" placeholder="Apellido">
+              <input type="text" class="form-control" placeholder="Apellido" name="Apellido">
             </div>
           </div>
         </div>
@@ -73,7 +73,7 @@
           <div class="col">
             <div class="form-group">
               <label for="InputEmpresa">Empresa</label>
-              <input type="text" class="form-control" placeholder="Empresa">
+              <input type="text" class="form-control" placeholder="Empresa" name="Empresa">
             </div>
           </div>
         </div>
@@ -81,14 +81,13 @@
           <div class="col">
             <div class="form-group">
               <label for="InputEmail1">Email</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-              <small id="emailHelp" class="form-text text-muted">No compartiremos su email con nadie.</small>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" name="Email">
             </div>
           </div>
           <div class="col">
             <div class="form-group">
               <label for="InputTelefono">Teléfono</label>
-              <input type="text" class="form-control" placeholder="Teléfono">
+              <input type="text" class="form-control" placeholder="Teléfono" name="Telefono">
             </div>
           </div>
         </div>
@@ -96,13 +95,13 @@
           <div class="col">
             <div class="form-group">
               <label for="InputDireccion">Dirección</label>
-              <input type="text" class="form-control" placeholder="Dirección">
+              <input type="text" class="form-control" placeholder="Dirección" name="Direccion">
             </div>
           </div>
           <div class="col">
             <div class="form-group">
               <label for="InputBarrio">Barrio</label>
-              <input type="text" class="form-control" placeholder="Barrio">
+              <input type="text" class="form-control" placeholder="Barrio" name="Barrio">
             </div>
           </div>
         </div>
@@ -110,13 +109,13 @@
           <div class="col">
             <div class="form-group">
               <label for="InputCiudad">Ciudad</label>
-              <input type="email" class="form-control" placeholder="Ciudad">
+              <input type="text" class="form-control" placeholder="Ciudad" name="Ciudad">
             </div>
           </div>
           <div class="col">
             <div class="form-group">
               <label for="InputDepartamento">Departamento</label>
-              <input type="text" class="form-control" placeholder="Departamento">
+              <input type="text" class="form-control" placeholder="Departamento" name="Departamento">
             </div>
           </div>
         </div>
@@ -124,7 +123,7 @@
           <div class="col">
             <div class="form-group">
               <label for="SelectProduct">Producto</label>
-              <select class="form-control" id="exampleFormControlSelect1">
+              <select class="form-control" id="exampleFormControlSelect1" name="Producto1">
                 <option value="None">Seleccionar producto</option>
                 <option>Brownies Maní</option>
                 <option>Brownies Chocolate</option>
@@ -149,7 +148,7 @@
           <div class="col">
             <div class="form-group">
               <label for="InputCantidad">Cantidad</label>
-              <input type="text" class="form-control" placeholder="Cantidad">
+              <input type="text" class="form-control" placeholder="Cantidad" name="Cantidad1">
             </div>
           </div>
         </div>
@@ -157,7 +156,7 @@
           <div class="col">
             <div class="form-group">
               <label for="SelectProduct">Producto</label>
-              <select class="form-control" id="exampleFormControlSelect1">
+              <select class="form-control" id="exampleFormControlSelect1" name="Producto2">
                 <option value="None">Seleccionar producto</option>
                 <option>Brownies Maní</option>
                 <option>Brownies Chocolate</option>
@@ -182,113 +181,17 @@
           <div class="col">
             <div class="form-group">
               <label for="InputCantidad">Cantidad</label>
-              <input type="text" class="form-control" placeholder="Cantidad">
-            </div>
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="col">
-            <div class="form-group">
-              <label for="SelectProduct">Producto</label>
-              <select class="form-control" id="exampleFormControlSelect1">
-                <option value="None">Seleccionar producto</option>
-                <option>Brownies Maní</option>
-                <option>Brownies Chocolate</option>
-                <option>Brownies Arequipe</option>
-                <option>Brownies Integrales</option>
-                <option>Brownies Mantequilla de Maní</option>
-                <option>Caja 4 Brownies Maní</option>
-                <option>Caja 4 Brownies Chocolate</option>
-                <option>Caja 4 Brownies Arequipe</option>
-                <option>Caja 4 Brownies Integrales</option>
-                <option>Caja 4 Brownies Mantequilla de Maní</option>
-                <option>Brownies para Helado</option>
-                <option>Brownies a Granel (x gramos)</option>
-                <option>Mini-Brownies Maní</option>
-                <option>Mini-Brownies Chocolate</option>
-                <option>Mini-Brownies Arequipe</option>
-                <option>Mini-Brownies Integrales</option>
-                <option>Mini-Brownies Mantequilla de Maní</option>
-              </select>
-            </div>
-          </div>
-          <div class="col">
-            <div class="form-group">
-              <label for="InputCantidad">Cantidad</label>
-              <input type="text" class="form-control" placeholder="Cantidad">
-            </div>
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="col">
-            <div class="form-group">
-              <label for="SelectProduct">Producto</label>
-              <select class="form-control" id="exampleFormControlSelect1">
-                <option value="None">Seleccionar producto</option>
-                <option>Brownies Maní</option>
-                <option>Brownies Chocolate</option>
-                <option>Brownies Arequipe</option>
-                <option>Brownies Integrales</option>
-                <option>Brownies Mantequilla de Maní</option>
-                <option>Caja 4 Brownies Maní</option>
-                <option>Caja 4 Brownies Chocolate</option>
-                <option>Caja 4 Brownies Arequipe</option>
-                <option>Caja 4 Brownies Integrales</option>
-                <option>Caja 4 Brownies Mantequilla de Maní</option>
-                <option>Brownies para Helado</option>
-                <option>Brownies a Granel (x gramos)</option>
-                <option>Mini-Brownies Maní</option>
-                <option>Mini-Brownies Chocolate</option>
-                <option>Mini-Brownies Arequipe</option>
-                <option>Mini-Brownies Integrales</option>
-                <option>Mini-Brownies Mantequilla de Maní</option>
-              </select>
-            </div>
-          </div>
-          <div class="col">
-            <div class="form-group">
-              <label for="InputCantidad">Cantidad</label>
-              <input type="text" class="form-control" placeholder="Cantidad">
-            </div>
-          </div>
-        </div>
-        <div class="form-row">
-          <div class="col">
-            <div class="form-group">
-              <label for="SelectProduct">Producto</label>
-              <select class="form-control" id="exampleFormControlSelect1">
-                <option value="None">Seleccionar producto</option>
-                <option>Brownies Maní</option>
-                <option>Brownies Chocolate</option>
-                <option>Brownies Arequipe</option>
-                <option>Brownies Integrales</option>
-                <option>Brownies Mantequilla de Maní</option>
-                <option>Caja 4 Brownies Maní</option>
-                <option>Caja 4 Brownies Chocolate</option>
-                <option>Caja 4 Brownies Arequipe</option>
-                <option>Caja 4 Brownies Integrales</option>
-                <option>Caja 4 Brownies Mantequilla de Maní</option>
-                <option>Brownies para Helado</option>
-                <option>Brownies a Granel (x gramos)</option>
-                <option>Mini-Brownies Maní</option>
-                <option>Mini-Brownies Chocolate</option>
-                <option>Mini-Brownies Arequipe</option>
-                <option>Mini-Brownies Integrales</option>
-                <option>Mini-Brownies Mantequilla de Maní</option>
-              </select>
-            </div>
-          </div>
-          <div class="col">
-            <div class="form-group">
-              <label for="InputCantidad">Cantidad</label>
-              <input type="text" class="form-control" placeholder="Cantidad">
+              <input type="text" class="form-control" placeholder="Cantidad" name="Cantidad2">
             </div>
           </div>
         </div>
         <div class="form-group">
           <label for="InputNotas">Notas</label>
-          <textarea class="form-control" id="Notas" rows="3"></textarea>
+          <textarea class="form-control" id="Notas" rows="3" name="Notas"></textarea>
         </div>
+        <input type="hidden" name="_next" value="confirmacionPedido.html" />
+        <input type="hidden" name="_subject" value="Nuevo Pedido" />
+        <input type="hidden" name="_language" value="es" />
         <button type="submit" class="btn btn-primary">Enviar</button>
       </form>
 
@@ -300,12 +203,6 @@
       </footer>
 
     </main>
-
-    <script>
-      function submitForm() {
-        document.getElementByID("formPedidos").submit();
-      }
-    </script>
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
