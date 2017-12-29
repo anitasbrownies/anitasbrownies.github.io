@@ -42,35 +42,71 @@ header {
 
 /* Jumbotron */
 
-.jumbotron {
+.inicio2{
+  background-image: url("../img/Individuales2.jpg");
+  /* background-size: cover; */
+  background-size: 350px;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 10em;
+  background-color: white;
+}
+
+@media (min-width: 40em) {
+  .inicio2{
+    background-image: url("../img/Individuales2.jpg");
+    background-size: cover;
+    /* background-size: 600px; */
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 25em;
+    background-color: white;
+  }
+}
+
+@media (min-width: 62em) {
+  .inicio2{
+    background-image: url("../img/Individuales2.jpg");
+    /* background-size: cover; */
+    background-size: 1200px;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 30em;
+    background-color: white;
+  }
+}
+
+.inicio1 {
   background-image: url("../img/test.png");
   /* background-size: cover; */
   background-size: 350px;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 10em;
-  /* background-color: #e4e8ec; */
+  /* background-color: white; */
 }
 
 @media (min-width: 40em) {
-  .jumbotron {
+  .inicio1 {
     background-image: url("../img/test.png");
     /* background-size: cover; */
     background-size: 600px;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 25em;
+    /* background-color: white; */
   }
 }
 
 @media (min-width: 62em) {
-  .jumbotron {
+  .inicio1 {
     background-image: url("../img/test.png");
     /* background-size: cover; */
     background-size: 600px;
     background-repeat: no-repeat;
     background-position: center;
     min-height: 30em;
+    /* background-color: white; */
   }
 }
 
@@ -109,7 +145,7 @@ header {
 /* Marketing */
 
 .marketing h2 {
-  margin-top: 0.5em;
+  margin-top: 0.15em;
 }
 
 .hidden-divider {
@@ -132,6 +168,12 @@ header {
 
 .nosotros h2 {
   margin-top: 8px;
+}
+
+.btn-secondary {
+  background-color: #e9ecef;
+  border-color: #e9ecef;
+  color: #5a5a5a;
 }
 
 /* Footer */
