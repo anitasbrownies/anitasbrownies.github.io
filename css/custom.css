@@ -74,6 +74,26 @@ header {
   }
 }
 
+.map {
+  min-height: 10em;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 40em) {
+  .map {
+    min-height: 25em;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (min-width: 62em) {
+  .map {
+    min-height: 30em;
+    margin-bottom: 2rem;
+  }
+}
+
 .display-3 {
   text-align: center;
   font-weight: 400;
@@ -94,6 +114,24 @@ header {
 
 .hidden-divider {
   border: none;
+}
+
+.contacto h2 {
+  font-weight: 400;
+  font-size: 1.75em;
+}
+
+.contacto a {
+  text-decoration: underline;
+  color: #5a5a5a;
+}
+
+.contacto a:hover {
+  color: #5a5a5a;
+}
+
+.nosotros h2 {
+  margin-top: 8px;
 }
 
 /* Footer */
