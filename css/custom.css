@@ -176,6 +176,20 @@ header {
   color: #5a5a5a;
 }
 
+.listaBrownies {
+  margin-bottom: .5em;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+.listaBrowniesLead {
+  margin-bottom: .5em;
+}
+
+ul {
+  list-style-type: circle;
+}
+
 /* Footer */
 
 .footer-link a {
