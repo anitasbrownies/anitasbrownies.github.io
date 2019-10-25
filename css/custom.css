@@ -52,6 +52,29 @@ header {
   background-color: white;
 }
 
+.promotion {
+  /* margin-bottom: 10%; */
+  padding-top: 20%;
+  margin-bottom: 1em;
+  /* position: absolute;
+  bottom: 0px;
+  width: 50%; */
+  /* bottom: 0px; */
+  /* margin: 0 auto; */
+  /* left: 50%;
+  margin-left: -25%; */
+  color: rgb(100, 100, 100);
+  text-align: center;
+}
+
+.promotion-lead {
+  font-size: 1.5em;
+  margin-bottom: 0.05em;
+}
+.promotion-terms {
+  margin-bottom: 0.5em;
+}
+
 @media (min-width: 40em) {
   .inicio2{
     background-image: url("../img/Individuales2.jpg");
@@ -83,6 +106,8 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   min-height: 10em;
+  position: relative;
+  padding-bottom: 0.5em;
   /* background-color: white; */
 }
 
@@ -94,6 +119,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     min-height: 25em;
+    position: relative;
     /* background-color: white; */
   }
 }
@@ -106,6 +132,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     min-height: 30em;
+    position: relative;
     /* background-color: white; */
   }
 }
